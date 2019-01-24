@@ -1,4 +1,4 @@
-# Aquisição de dados - BeMyArms
+# Aquisição de dados - ICan.js
 
 Pequeno projeto para a aquisição de dados para ajudar na criação dos modelos de rede neural do ICan.js
 
