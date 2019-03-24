@@ -75,7 +75,7 @@ class Window(base, form):
         """
 
         sender = GmailSender('Email com resultados', 'Segue os resultados',
-                             'mauricioselecto@gmail.com', 'felipe.carlos@fatec.sp.gov.br', '123@abc..')
+                             'EMAIL_DE_ORIGEM_AQUI', 'EMAIL_DE_DESTINO_AQUI', 'SENHA_DO_EMAIL_AQUI')
         th = EmailSenderThread(self)
         th.emailStatusSignal.connect(self.showCoolMessage)
 
