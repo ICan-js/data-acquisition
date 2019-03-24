@@ -1,6 +1,6 @@
 # ICan.js - Aquisição de dados
 
-Pequeno projeto para a aquisição de dados para ajudar na criação dos modelos de rede neural do ICan.js
+Sistema criado para a aquisição de imagens de Libras para o projeto ICan.js. 
 
 ## Para utilizar
 
@@ -23,6 +23,3 @@ Após ele realizar toda a instalação, basta executar o projeto!
 ```
 pipenv run python app.py
 ``` 
-
-Pronto! Obrigado por colaborar!
-
