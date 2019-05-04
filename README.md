@@ -1,25 +1,9 @@
 # ICan.js - Aquisição de dados
 
-Sistema criado para a aquisição de imagens de Libras para o projeto ICan.js. 
+Ferramenta criado para a aquisição de imagens de Libras para o projeto ICan.js. 
 
-## Para utilizar
+## Distribuindo
 
-Será necessário você ter o Python 3.X instalado e também o pipenv
+Esta foi uma ferramenta criada para ser distribuindo, porém antes de realizar isto é necessário alterar no código fonte do projeto as credencial de e-mail utilizadas no momento do envio das imagens.
 
-OBS: Caso você não tenha o pipenv instalado utilize o pip do python 3 (Normalmente o comando é pip3) para realizar a instalação, veja
-
-```shell
-pip3 install pipenv
-```
-
-Com o pipenv instalado, dentro do diretório do projeto, digite:
-
-```shell
-pipenv install
-```
-
-Após ele realizar toda a instalação, basta executar o projeto!
-
-```
-pipenv run python app.py
-``` 
+Além disto, não deixe de utilizar uma ferramenta para empacotar o projeto. Recomenda-se a utilização do [pyinstaller](https://www.pyinstaller.org/)
